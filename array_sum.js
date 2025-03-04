@@ -1,5 +1,5 @@
 function sumArray(sumArray){
-    if(Array.isArray(sumArray)){
+    if(!Array.isArray(sumArray)){
         return console.error('The argument type is not correct!')
     }
     
